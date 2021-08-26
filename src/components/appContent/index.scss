@@ -1,0 +1,22 @@
+.app-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    // div {
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: space-between;
+    // }
+    .nav-bar {
+        width: 100%;
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        bottom: 0px;
+        border: 1px solid red;
+        box-sizing: border-box;
+    }
+}
